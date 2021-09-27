@@ -62,7 +62,7 @@ class SignIn  extends React.Component{
 
         //fetch by default place a get request, but we want to place Post request
     onSubmitSignIn = () =>{
-        fetch('https://fast-shelf-29098.herokuapp.com//signin',{
+        fetch('https://fast-shelf-29098.herokuapp.com/signin',{
             //we will pass object here that describe what the request will be
             method:'post',
             headers:{'Content-Type':'application/json'},
